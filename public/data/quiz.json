@@ -1,0 +1,179 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "The common software-programming acronym &quot;I18N&quot; comes from the term &quot;Interlocalization&quot;.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these is NOT an album released by The Beatles?",
+            "correct_answer": "The Wall",
+            "incorrect_answers": [
+                "Abbey Road",
+                "Magical Mystery Tour",
+                "Revolver"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "&quot;I disapprove of what you say, but I will defend to the death your right to say it&quot; is a quote from French philosopher Voltaire.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "The United States was a member of the League of Nations.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the Kingdom Heart series who provides the english voice for Master Eraqus?",
+            "correct_answer": "Mark Hamill",
+            "incorrect_answers": [
+                "Jason Dohring",
+                "Jesse McCartney",
+                "Haley Joel Osment"
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What polymer is used to make CDs, safety goggles and riot shields?",
+            "correct_answer": "Polycarbonate",
+            "incorrect_answers": [
+                "Rubber",
+                "Nylon",
+                "Bakelite"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+            "correct_answer": "Hideki Tojo",
+            "incorrect_answers": [
+                "Michinomiya Hirohito",
+                "Isoroku Yamamoto",
+                "Fumimaro Konoe"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
+            "correct_answer": "The Velvet Underground and Nico",
+            "incorrect_answers": [
+                "Abbey Road",
+                "Led Zeppelin IV",
+                "Pet Sounds"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the author of the manga series &quot;Astro Boy&quot;?",
+            "correct_answer": "Osamu Tezuka",
+            "incorrect_answers": [
+                "Mitsuteri Yokoyama",
+                "Takao Saito",
+                "Yoshihiro Tatsumi"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Where did the British Boy Band &quot;Bros&quot; come from?",
+            "correct_answer": "Camberley",
+            "incorrect_answers": [
+                "Guildford",
+                "Aldershot",
+                "Bagshot"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which actor portrays &quot;Walter White&quot; in the series &quot;Breaking Bad&quot;?",
+            "correct_answer": " Bryan Cranston",
+            "incorrect_answers": [
+                "Andrew Lincoln",
+                "Aaron Paul",
+                "RJ Mitte"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The musical &quot;Dirty Rotten Scoundrels&quot; is set in what country?",
+            "correct_answer": "France",
+            "incorrect_answers": [
+                "USA",
+                "Germany",
+                "Sweden"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters&#039; fictional gang?",
+            "correct_answer": "The Junkyard Gang",
+            "incorrect_answers": [
+                "The Trash Troupe",
+                "The Scrapyard Seven",
+                "The Rotten Posse"
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What physics principle relates the net electric flux out of a closed surface to the charge enclosed by that surface?",
+            "correct_answer": "Gauss&#039;s Law",
+            "incorrect_answers": [
+                "Faraday&#039;s Law",
+                "Ampere&#039;s Law",
+                "Biot-Savart Law"
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which color cannot be produced in Roses, even through genetic alteration?",
+            "correct_answer": "Blue",
+            "incorrect_answers": [
+                "Black",
+                "Orange",
+                "Brown"
+            ]
+        }
+    ]
+}

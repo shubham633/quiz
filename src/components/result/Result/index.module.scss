@@ -1,0 +1,62 @@
+.result {
+    >li {
+        margin-bottom: 50px;
+        background: lightcyan;
+        padding: 20px;
+        border-radius: 8px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        h6 {
+            span {
+                margin-right: 10px;
+            }
+        }
+
+        ul {
+            >li {
+                margin-bottom: 4px;
+
+                &:last-child {
+                    margin-bottom: 40px;
+                }
+
+                b {
+                    display: none;
+                }
+
+                &.correct {
+                    b {
+                        display: initial;
+                        color: green;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+
+        p {
+            &.attempted {
+                color: green;
+            }
+
+            &.notAttempted {
+                color: red;
+            }
+
+            span {
+                margin-left: 20px;
+
+                &.correct {
+                    color: green;
+                }
+
+                &.inCorrect {
+                    color: red;
+                }
+            }
+        }
+    }
+}
