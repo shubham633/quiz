@@ -1,7 +1,7 @@
 
 "use client";
 import { ChangeEvent, useState } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Container } from "react-bootstrap";
 import styles from "./index.module.scss";
 import { useRouter } from "next/navigation";
 
@@ -26,7 +26,7 @@ const LoginForm = () => {
     };
 
     return (
-        <>
+        <Container>
             <Form className={styles.loginForm} onSubmit={handleSubmit}>
                 <Form.Group>
                     <Form.Control
@@ -44,7 +44,7 @@ const LoginForm = () => {
                     Submit
                 </Button>
             </Form>
-        </>
+        </Container>
     );
 };
 
