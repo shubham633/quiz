@@ -46,7 +46,7 @@ const QuizHandler = (props: IQuizHandler) => {
     return (
         <Container>
             <Row>
-                <Col md={2} className={styles.quizHandler}>
+                <Col xs={2} className={styles.quizHandler}>
                     <QuizList
                         list={quizList}
                         setSelected={setSelected}
@@ -55,7 +55,7 @@ const QuizHandler = (props: IQuizHandler) => {
                         setSelectedAnswer={setSelectedAnswer}
                     />
                 </Col>
-                <Col md={10}>
+                <Col xs={10}>
                     <Timer timeLeft={timeLeft} setTimeLeft={setTimeLeft} />
                     <SelectedQuiz
                         quiz={selected}
