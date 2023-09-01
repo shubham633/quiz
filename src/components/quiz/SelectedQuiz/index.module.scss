@@ -1,0 +1,30 @@
+.selectedQuiz {
+    h4 {
+        background: skyblue;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 32px;
+        font-size: 24px;
+    }
+
+    ul {
+        li {
+            background: whitesmoke;
+            max-width: 40%;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            text-align: center;
+            padding: 20px 0;
+            cursor: pointer;
+            border: 1px solid black;
+
+            &:hover {
+                border: 1px solid red;
+            }
+
+            &.selected {
+                background: green;
+            }
+        }
+    }
+}

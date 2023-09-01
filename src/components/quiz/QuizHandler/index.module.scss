@@ -1,0 +1,10 @@
+.quizHandler {
+    overflow-y: auto;
+    height: 100vh;
+
+    .submitBtn {
+        display: flex;
+        align-self: flex-end;
+        background: gainsboro;
+    }
+}
