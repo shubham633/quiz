@@ -26,25 +26,23 @@ const LoginForm = () => {
     };
 
     return (
-        <Container>
-            <Form className={styles.loginForm} onSubmit={handleSubmit}>
-                <Form.Group>
-                    <Form.Control
-                        size="lg"
-                        placeholder="name@example.com"
-                        isInvalid={isInvalid}
-                        value={email}
-                        onChange={handleEmail}
-                    />
-                    <Form.Control.Feedback type={isInvalid ? "invalid" : "valid"}>
-                        Please Enter Valid Email
-                    </Form.Control.Feedback>
-                </Form.Group>
-                <Button size="lg" type="submit" variant="danger">
-                    Submit
-                </Button>
-            </Form>
-        </Container>
+        <Form className={styles.loginForm} onSubmit={handleSubmit}>
+            <Form.Group>
+                <Form.Control
+                    size="lg"
+                    placeholder="name@example.com"
+                    isInvalid={isInvalid}
+                    value={email}
+                    onChange={handleEmail}
+                />
+                <Form.Control.Feedback type={isInvalid ? "invalid" : "valid"}>
+                    Please Enter Valid Email
+                </Form.Control.Feedback>
+            </Form.Group>
+            <Button size="lg" type="submit" variant="danger">
+                Submit
+            </Button>
+        </Form>
     );
 };
 
