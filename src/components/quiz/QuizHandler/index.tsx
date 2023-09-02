@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import styles from "./index.module.scss";
 import Timer from "../Timer";
 import { IQuiz, IAnswerQuiz } from "../../../lib/types/quiz";
+import BSModal from "../../common/Modal";
 
 interface IQuizHandler {
     quizList: IQuiz[];
@@ -14,6 +15,7 @@ interface IQuizHandler {
 
 const QuizHandler = (props: IQuizHandler) => {
     const { quizList } = props;
+    const [show, setShow] = useState(false);
     const [selected, setSelected] = useState(quizList[0]);
     const [selectedAnswer, setSelectedAnswer] = useState<IAnswerQuiz[]>([{ quiz: quizList[0], isVisited: true }]);
     const initialTime = 30 * 60;
@@ -66,12 +68,13 @@ const QuizHandler = (props: IQuizHandler) => {
                     <Button
                         className={styles.submitBtn}
                         variant="success"
-                        onClick={handleSubmit}
+                        onClick={() => setShow(true)}
                     >
                         Submit
                     </Button>
                 </Col>
             </Row>
+            <BSModal show={show} timeLeft={timeLeft} setShow={setShow} handleSuccess={handleSubmit} />
         </Container>
     );
 };

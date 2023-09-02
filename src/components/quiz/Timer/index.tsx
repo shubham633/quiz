@@ -1,3 +1,4 @@
+import { formatTime } from "@/src/lib/utils/common";
 import { Dispatch, SetStateAction, useEffect } from "react";
 import styles from "./index.module.scss";
 
@@ -17,14 +18,6 @@ const Timer = (props: ITimer) => {
         };
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-
-    const formatTime = (timeInSeconds: number) => {
-        const minutes = Math.floor(timeInSeconds / 60);
-        const seconds = timeInSeconds % 60;
-        return `${minutes.toString().padStart(2, "0")}:${seconds
-            .toString()
-            .padStart(2, "0")}`;
-    };
 
     return <p className={styles.timer}>{formatTime(timeLeft)}</p>;
 };
