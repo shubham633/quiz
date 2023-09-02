@@ -15,7 +15,7 @@ interface IQuizHandler {
 const QuizHandler = (props: IQuizHandler) => {
     const { quizList } = props;
     const [selected, setSelected] = useState(quizList[0]);
-    const [selectedAnswer, setSelectedAnswer] = useState<IAnswerQuiz[]>([]);
+    const [selectedAnswer, setSelectedAnswer] = useState<IAnswerQuiz[]>([{ quiz: quizList[0], isVisited: true }]);
     const initialTime = 30 * 60;
     const [timeLeft, setTimeLeft] = useState(initialTime);
     const router = useRouter();

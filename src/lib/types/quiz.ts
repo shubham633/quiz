@@ -9,6 +9,6 @@ export interface IQuiz {
 
 export interface IAnswerQuiz {
     quiz: IQuiz;
-    answer: string;
-    isVisited: string;
+    answer?: string;
+    isVisited: boolean;
 }
